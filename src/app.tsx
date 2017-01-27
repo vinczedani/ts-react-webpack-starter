@@ -1,5 +1,5 @@
 import * as React from 'react';
-import * as ReactDOM from 'react-dom';
+import { render } from 'react-dom';
 import { Provider } from 'react-redux';
 import { browserHistory, Route, Router } from 'react-router';
 import { createStore } from 'redux';
@@ -17,7 +17,7 @@ const router = (
     </Provider>
   );
 
-ReactDOM.render(
+render(
   router,
   document.getElementById('root'),
 );
