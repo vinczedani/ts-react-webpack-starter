@@ -1,6 +1,13 @@
 const path = require("path");
+const failPlugin = require('webpack-fail-plugin');
 
 const config = {
+  /**
+   * custom plugins can be added here for the webpack
+   */
+  plugins: [
+    failPlugin,
+  ],
   /*
    * app.ts represents the entry point to your web application. Webpack will
    * recursively go through every "require" statement in app.ts and
