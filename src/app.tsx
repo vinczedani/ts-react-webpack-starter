@@ -1,8 +1,15 @@
 import * as React from "react";
 import * as ReactDOM from "react-dom";
-import Hello from "./Hello";
+import { Home } from "./Home";
+import { Router, Route, browserHistory } from 'react-router';
+
+const router = (
+    <Router history={browserHistory}>
+      <Route path="/" component={Home}/>
+    </Router>
+  )
 
 ReactDOM.render(
-  <Hello name="Coding Sans!" />,
+  router,
   document.getElementById("root")
 );
