@@ -3,3 +3,4 @@ build
 *.log
 typings
 .DS_Store
+.vscode

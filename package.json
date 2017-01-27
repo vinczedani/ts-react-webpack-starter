@@ -7,13 +7,16 @@
     "setup": "npm install && typings install",
     "start": "npm run build:dev",
     "build": "webpack",
-    "build:dev": "webpack-dev-server --progress --color --inline --open"
+    "build:dev": "webpack-dev-server --progress --color --inline --open",
+    "lint": "tslint src/**/*.tsx"
   },
   "keywords": [],
   "author": "",
   "license": "MIT",
   "devDependencies": {
     "ts-loader": "^2.0.0",
+    "tslint": "^4.4.2",
+    "tslint-react": "^2.3.0",
     "typescript": "^2.1.5",
     "typings": "^2.1.0",
     "webpack": "^1.14.0"
@@ -21,6 +24,8 @@
   "dependencies": {
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
-    "react-router": "^3.0.2"
+    "react-redux": "^5.0.2",
+    "react-router": "^3.0.2",
+    "redux": "^3.6.0"
   }
 }

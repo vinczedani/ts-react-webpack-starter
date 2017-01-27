@@ -2,14 +2,10 @@ import * as React from 'react';
 
 import { Hello } from './Hello';
 
-interface HomeProps {
-
-}
-
-export class Home extends React.Component<HomeProps,{}> {
-  render() {
+export class Home extends React.Component<{}, {}> {
+  public render() {
     return (
-      <Hello name="Coding Sans" />
+      <Hello name='Coding Sans' />
     );
   }
 }
