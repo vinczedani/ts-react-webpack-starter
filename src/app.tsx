@@ -5,7 +5,7 @@ import { browserHistory, Route, Router } from 'react-router';
 import { createStore } from 'redux';
 import { reducers } from './reducers/combiner';
 
-import { Home } from './Home';
+import { Home } from './components/Home';
 
 const store = createStore(reducers);
 
