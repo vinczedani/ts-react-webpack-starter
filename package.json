@@ -1,0 +1,23 @@
+{
+  "name": "ts-react-webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "build:dev": "webpack-dev-server --progress --color --inline"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "ts-loader": "^2.0.0",
+    "typescript": "^2.1.5",
+    "typings": "^2.1.0",
+    "webpack": "^1.14.0"
+  },
+  "dependencies": {
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  }
+}
