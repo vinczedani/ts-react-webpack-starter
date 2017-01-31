@@ -31,7 +31,7 @@ const config = {
    * in your code.
    */
   resolve: {
-    extensions: ["", ".ts", ".tsx", ".js"]
+    extensions: [".ts", ".tsx", ".js"]
   },
 
   module: {

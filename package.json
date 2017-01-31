@@ -19,7 +19,7 @@
     "tslint-react": "^2.3.0",
     "typescript": "^2.1.5",
     "typings": "^2.1.0",
-    "webpack": "^1.14.0",
+    "webpack": "^2.2.1",
     "webpack-dev-server": "^2.2.1",
     "webpack-fail-plugin": "^1.0.5"
   },
